@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.source = { :git => 'https://github.com/hewang1016729378/TUIChat'}
-  spec.dependency 'TUICore','6.2.2363'
+  spec.dependency 'TUICore','6.1.2166'
 
   spec.subspec 'Common' do |common|
     common.source_files = '**/TUIChat/Common/*.{h,m,mm}'
